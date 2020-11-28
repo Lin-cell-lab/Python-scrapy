@@ -1,0 +1,19 @@
+@@ -0,0 +1,18 @@
+package utlis
+
+import (
+	"fmt"
+)
+
+var Age int
+var Name string
+
+func init() {
+	Age = 100
+	Name = "DengJianglin"
+
+}
+
+func utlis() {
+	fmt.Println(Age, Name)
+}

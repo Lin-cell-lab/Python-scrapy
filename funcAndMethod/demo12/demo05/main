@@ -1,0 +1,22 @@
+// package main
+
+/*/init函数 :初始化工作，生命周期
+//1.全局变量定义>init函数>main函数
+//2.先执行被引入变量初始化定义，在执行主包内的函数及初始化定义
+var age = test01()
+
+func test01() int {
+	fmt.Println("test()01..")
+	return 90
+}
+
+//2.初始化工作案例
+
+func init() {
+	fmt.Println("init()...")
+}
+
+func main() {
+	fmt.Println("main()...")
+	fmt.Println("age=", utlis.Age, "name=", utlis.Name)
+}*/

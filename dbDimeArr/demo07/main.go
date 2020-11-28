@@ -49,7 +49,18 @@ func quickSort(arr []int) {
 
 }
 
-//3.二分查找
+//3.插入排序
+/*func insertSort(arr [10]int, insertNum int) {
+
+	for i := 1; i <= len(arr); i++ {
+		temp := arr[i]
+		for j := 1; j <= len(arr)-i; j++ {
+			if j
+		}
+	}
+}*/
+
+//4.二分查找
 func binaryFind(arr *[10]int, leftIndex int, rightIndex int, findValue int) {
 
 	//判断leftIndex > rightIndex 找不到
