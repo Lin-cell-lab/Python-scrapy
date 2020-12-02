@@ -38,7 +38,6 @@ func (p *person) Setsalary(sal float64) {
 		fmt.Println("薪水输入不正确")
 		p.salary = 0
 	}
-
 }
 
 //返回
